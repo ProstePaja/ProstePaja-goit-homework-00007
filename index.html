@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HomeWork</title>
+    <title>Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,8 +30,8 @@
             >Web<span class="logo-span">Studio</span></a
           >
           <ul class="nav-list list">
-            <li class="current-page-wrap">
-              <a class="nav-item link current-page" href="./index.html"
+            <li class="actual-page-wrap">
+              <a class="nav-item link actual-page" href="./index.html"
                 >Studio</a
               >
             </li>
@@ -57,50 +57,50 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="mob-menu-btn" data-menu-open>
-          <svg width="32" height="32" class="mob-menu-icon">
+        <button type="button" class="menu-btn-mob" data-menu-open>
+          <svg width="32" height="32" class="menu-icon-mob">
             <use href="./images/icons.svg#icon-mob-menu"></use>
           </svg>
         </button>
       </div>
-      <!-- ! =====================MOB MENU======================= -->
-      <div class="mob-menu-wrap is-hidden" data-menu>
-        <button type="button" class="mob-menu-close" data-menu-close>
+      <!--MOB MENU-->
+      <div class="menu-wrap-mob is-hidden" data-menu>
+        <button type="button" class="menu-close-mob" data-menu-close>
           <svg width="8" height="8" class="close-icon">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
-        <ul class="mob-menu-nav-list list">
-          <li class="mob-nav-item">
-            <a class="mob-nav-link link current-menu-item" href="./index.html"
+        <ul class="menu-nav-list-mob list">
+          <li class="nav-item-mob">
+            <a class="nav-link-mob link actual-menu-item" href="./index.html"
               >Studio</a
             >
           </li>
 
-          <li class="mob-nav-item">
-            <a class="mob-nav-link link" href="./portfolio.html">Portfolio</a>
+          <li class="nav-item-mob">
+            <a class="nav-link-mob link" href="./portfolio.html">Portfolio</a>
           </li>
-          <li class="mob-nav-item">
-            <a class="mob-nav-link link" href="">Contacts</a>
+          <li class="nav-item-mob">
+            <a class="nav-link-mob link" href="">Contacts</a>
           </li>
         </ul>
 
-        <address class="mob-menu-address">
+        <address class="menu-address-mob">
           <ul class="list menu-contact-list">
-            <li class="mob-menu-number">
-              <a class="mob-contact-number link" href="tel:+110001111111"
+            <li class="menu-number-mob">
+              <a class="contact-number-mob link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
-            <li class="mob-menu-mail">
-              <a class="mob-contact-mail link" href="mailto:info@devstudio.com"
+            <li class="menu-mail-mob">
+              <a class="contact-mail-mob link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
           </ul>
         </address>
 
-        <!--  SOC MEDIA ICONS -->
+        <!--Social-->
 
         <ul class="mob-soc list">
           <li class="soc-media-icon">
@@ -112,21 +112,21 @@
           </li>
           <li class="soc-media-icon">
             <a href="" class="soc-link">
-              <svg width="16" height="16" class="soc-link-icon">
+              <svg width="24" height="24" class="soc-link-icon">
                 <use href="./images/icons.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
           <li class="soc-media-icon">
             <a href="" class="soc-link">
-              <svg width="16" height="16" class="soc-link-icon">
+              <svg width="24" height="24" class="soc-link-icon">
                 <use href="./images/icons.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li class="soc-media-icon">
             <a href="" class="soc-link">
-              <svg width="16" height="16" class="soc-link-icon">
+              <svg width="24" height="24" class="soc-link-icon">
                 <use href="./images/icons.svg#icon-linkedin"></use>
               </svg>
             </a>
@@ -144,10 +144,10 @@
           </button>
         </div>
       </section>
-      <!-- Advantages & Features -->
+      <!-- Vyhody a Vlastnosti -->
       <section class="features-section section">
         <div class="container">
-          <h2 class="section-title" hidden>Advantages & Features</h2>
+          <h2 class="section-title is-hidden">Nevim Proc</h2>
           <ul class="list features-list">
             <li class="feature-container">
               <div class="icon-bg">
@@ -201,13 +201,13 @@
         </div>
       </section>
 
-      <!-- ================Presentation pictures================= -->
+      <!-- Presentation -->
 
       <section class="presentation-section section">
         <div class="container presentation-container">
           <h2 class="section-title presentation-title">What are we doing</h2>
-          <ul class="list presentation-pics">
-            <li class="present-pic">
+          <ul class="list presentation-picture">
+            <li class="pres-picture">
               <img
                 srcset="./images/monitor-2x.jpg 2x"
                 src="./images/monitor.jpg"
@@ -215,15 +215,15 @@
                 width="360"
               />
             </li>
-            <li class="present-pic">
+            <li class="pres-picture">
               <img
                 srcset="/images/smartphone-2x.jpg 2x"
                 src="./images/smartphone.jpg"
-                alt="Multiple smartphone screens"
+                alt="Screens"
                 width="360"
               />
             </li>
-            <li class="present-pic">
+            <li class="pres-picture">
               <img
                 srcset="./images/hand-with-phone-2x.jpg 2x"
                 src="./images/hand-with-phone.jpg"
@@ -235,7 +235,7 @@
         </div>
       </section>
 
-      <!-- =================== Our team ======================== -->
+      <!-- Our team -->
 
       <section class="team section">
         <div class="container team-container">
@@ -468,11 +468,10 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container footer-container">
-        <div class="logo-n-text">
+        <div class="logo-footer-text">
           <a class="footer-logo link" href="./index.html"
-            >Web<span class="accent-footer">Studio</span></a
-          >
-          <p class="footer-slogan">
+            >Web<span class="accent-footer">Studio</span></a>
+          <p class="footer-text">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
           </p>
@@ -595,13 +594,13 @@
             <span class="priv-policy">
               I accept the terms and conditions of the
               <a
-                href="https://youtu.be/dQw4w9WgXcQ"
+                href=""
                 rel="noopener noreferrer nofollow"
                 class="privacy-link"
                 target="_blank"
                 >Privacy Policy</a
-              >.
-              <!-- Check this ^ out -->
+              >
+              <!-- Check -->
             </span>
           </label>
           <button type="submit" class="modal-send">Send</button>

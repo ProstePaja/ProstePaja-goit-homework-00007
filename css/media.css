@@ -2,20 +2,20 @@
   .container {
     max-width: 428px;
   }
-  /* ! ======================== CUSTOMERS ======================== */
+  /* CUSTOMERS */
 
-  /* ! ========================== FOOTER ========================= */
+  /* FOOTER */
   .footer-container {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-/*? ============================= Tablet ========================  */
+/* Tablet */
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
-  /* ! =========================== HEADER ======================== */
+  /* HEADER */
 
   .logo {
     margin-right: 120px;
@@ -34,12 +34,11 @@
     gap: 12px;
     padding: 16px 0;
   }
-  .mob-menu-btn {
+  .menu-btn-mob {
     display: none;
   }
-  /* ! =========================== HERO  ========================= */
+  /* HERO */
   .hero {
-    /* max-width: 768px; */
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -63,7 +62,7 @@
     font-size: 56px;
     line-height: 1.07;
   }
-  /* ! ========================== FEATURES  ====================== */
+  /* FEATURES */
   .feature-title {
     text-align-last: left;
   }
@@ -75,14 +74,11 @@
   .feature-container {
     max-width: 356px;
   }
-  /* ! ======================== OUR TEAM  ======================== */
-  /* .team-container {
-    max-width: 552px;
-  } */
+  /* OUR TEAM */
   .team-list {
     gap: 64px 24px;
   }
-  /* ! ======================== CUSTOMERS ======================== */
+  /* CUSTOMERS */
 
   .customers-list {
     gap: 24px;
@@ -91,14 +87,14 @@
   .customer {
     max-width: 168px;
   }
-  /* ! ========================== FOOTER ========================= */
+  /* FOOTER */
   .footer-container {
     max-width: 552px;
     align-items: normal;
     justify-content: start;
   }
 
-  .logo-n-text {
+  .logo-footer-text {
     display: block;
     margin: 0;
     margin-bottom: 72px;
@@ -128,7 +124,7 @@
   .sub-field {
     width: 264px;
   }
-  /*  !-----------------------------modal------------------------- */
+  /* modal */
   .modal {
     max-width: 408px;
     max-height: 586px;
@@ -137,7 +133,7 @@
     padding: 72px 24px 24px;
   }
 }
-/* ? ========================== Desktop ======================== ? */
+/* Desktop */
 
 @media screen and (min-width: 1440px) {
   .container {
@@ -145,7 +141,7 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-  /* ! =========================== HEADER ======================== */
+  /* HEADER */
   .nav-links {
     padding: 0;
   }
@@ -161,7 +157,7 @@
     gap: 40px;
     padding: 24px 0;
   }
-  /* ! =========================== HERO  ========================= */
+  /* HERO */
   .hero {
     max-width: 1440px;
     background-image: linear-gradient(
@@ -184,7 +180,7 @@
   .hero-title {
     margin-bottom: 48px;
   }
-  /* ! ========================== FEATURES  ====================== */
+  /* FEATURES */
 
   .features-section {
     padding: 120px 0;
@@ -206,10 +202,10 @@
   .feature {
     font-weight: 400;
   }
-  /* ! ======================== PRESENTATION  ==================== */
+  /* PRESENTATION */
   .presentation-section {
     display: block;
-  } /* ! ======================== OUR TEAM  ======================== */
+  } /* OUR TEAM */
   .team {
     padding: 120px 0;
   }
@@ -217,21 +213,21 @@
     gap: 24px;
     flex-wrap: nowrap;
   }
-  /* ! ======================== CUSTOMERS ======================== */
+  /* CUSTOMERS */
   .customers-section {
     padding: 120px 0;
   }
   .customers-list {
     flex-wrap: nowrap;
   }
-  /* ! ========================= FOOTER ========================== */
+  /* FOOTER */
 
   .footer-container {
     max-width: 1158px;
     flex-wrap: nowrap;
   }
 
-  .logo-n-text {
+  .logo-footer-text {
     margin-right: 120px;
   }
 
@@ -240,9 +236,11 @@
   }
 
   .sub-field {
-    border: 1px solid var(--white-bg);
+    border: 1px solid #FFFFFF;
   }
   .sub-field::placeholder {
-    color: var(--white-bg);
+    color: #FFFFFF;
   }
 }
+
+/*=======================================================================================*/
