@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/mediadesktop.css" />
   </head>
   <body>
-    <header class="header shadow-port-head">
+    <header class="header">
       <div class="container header-container">
         <nav class="nav">
           <a class="logo link" href="./index.html">Web<span class="studio">Studio</span></a>
@@ -477,7 +477,7 @@
         </div>
         <div class="footer-soc-container">
           <h2 class="footer-soc-titel">Social media</h2>
-          <ul class="footer-soc-list list">
+          <ul class="footer-soc-list social-list list">
             <li class="footer-soc-item">
               <a class="footer-soc-link" href="">
                 <svg width="24" height="24" class="footer-soc-icon">
@@ -511,13 +511,15 @@
 
         <div class="footer-form-container">
           <h2 class="footer-soc-titel">Subscribe</h2>
-          <form class="footer-form">
+          <div class="footer-div">
+          <label for="footer-email-label"></label>
             <input
+              id="footer-email-label"
               type="email"
               name="email"
               placeholder="E-mail"
               class="footer-input"
-              required
+              autocomplete="on"
             />
             <button type="submit" class="subscribe-button">
               Subscribe
@@ -525,7 +527,7 @@
                 <use href="./images/icons2.svg#icon-send"></use>
               </svg>
             </button>
-          </form>
+          </div>
         </div>
       </div>
     </footer>

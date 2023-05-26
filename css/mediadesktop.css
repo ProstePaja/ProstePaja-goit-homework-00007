@@ -22,8 +22,8 @@
   }
 
   .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /*padding-top: 24px;
+    padding-bottom: 24px;*/
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #e7e9fc;
@@ -102,8 +102,8 @@
     opacity: 0;
     display: block;
     position: absolute;
-    bottom: -25px;
-    left: 0;
+    bottom: -1px;
+    /*left: 0;*/
     height: 4px;
     width: 100%;
     background-color: var(--button-hover-background);
@@ -154,6 +154,7 @@
   .solutions-text-list {
     column-gap: 24px;
     flex-wrap: nowrap;
+    
   }
 
   .solutions-text-item {
@@ -224,9 +225,9 @@
   .customers .container {
     max-width: 1158px;
   }
-  .customers-list-item {
+  /*.customers-list-item {
     width: calc((100% - 120px) / 6);
-  }
+  }*/
 
   .footer-container {
     justify-content: space-between;
